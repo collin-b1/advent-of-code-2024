@@ -62,5 +62,7 @@ def part2(puzzle: [str]) -> int:
 if __name__ == '__main__':
     with open('./inputs/day04', 'r') as file:
         puzzle_input = file.readlines()
+        print(f'{part1(test_input)=}')
+        print(f'{part2(test_input)=}')
         print(f'{part1(puzzle_input)=}')
         print(f'{part2(puzzle_input)=}')

@@ -72,5 +72,7 @@ def is_valid_report(nums: [int]) -> bool:
 if __name__ == '__main__':
     with open('./inputs/day02', 'r') as file:
         puzzle_input = [[int(n) for n in line.strip().split()] for line in file.readlines()]
+        print(f'{part1(test_input)=}')
+        print(f'{part2(test_input)=}')
         print(f'{part1(puzzle_input)=}')
         print(f'{part2(puzzle_input)=}')
